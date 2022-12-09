@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://fr.xpoken.com/ClientArea/Loader.aspx -->
+<html dir="ltr" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+    <link rel="stylesheet" href="./bootstrap(1).css" type="text/css">
+    
+    <link href="./introLoader.min.css" rel="stylesheet">
+
+    <!-- Document Title
+	============================================= -->
+    <script>
+        function Loader() {
+            var elemDiv = document.createElement('div');
+            elemDiv.id = 'clientloader';
+            elemDiv.className = 'introLoading';
+            document.body.appendChild(elemDiv);
+
+            $('#clientloader').introLoader({
+                animation: {
+                    name: "gifLoader",
+                    options: {
+                        stop: false
+                    }
+                }
+            });
+        }
+</script>
+</head>
+
+<body class="stretched side-push-panel no-transition" onload="Loader()">
+
+    <!-- Document Wrapper
+	============================================= -->
+    <div id="wrapper" class="clearfix">
+        <!-- Content
+		============================================= -->
+        <section id="content">
+        </section>
+    </div>
+    <!-- #wrapper end -->
+
+    <!-- External JavaScripts
+	============================================= -->
+    <script type="text/javascript" src="./jquery.js(1).téléchargement"></script>
+    
+    <script src="./jquery.introLoader.js.téléchargement"></script>
+
+    <script>
+        $(document).on('ready', function () {
+            $("#clientloader").introLoader({
+                animation: {
+                    name: 'gifLoader',
+                    options: {
+                        ease: "easeInOutCirc",
+                        style: 'light',
+                        delayBefore: 500,
+                        exitTime: 300
+                    }
+                }
+            });
+        });
+    </script>
+
+
+
+<div id="clientloader" class="introLoading introLoader gifLoader theme-light"><div id="introLoaderSpinner" class="gifLoaderInner" style=""></div></div></body></html>

@@ -1,0 +1,47 @@
+
+.nlbox--hugediscount {
+	border-top: 0px solid #E7E7E7 !important;
+    border-bottom: 0px solid #E7E7E7 !important;
+    margin: 10px 0 !important;
+	
+	}
+
+
+#popup-ad .nlbox--inner {
+    padding: 80px 60px 80px 40px !important;
+}
+
+#popup-ad .nlbox--inner img {
+
+    width: 40%;
+	 margin-top: 30px;
+}
+
+
+.kl-pp-inner.bordered-box {
+    border: 10px solid #009adc !important;
+}
+
+
+@media (max-width: 767px) {
+#popup-ad .nlbox--inner {
+		margin-left: 0;
+		text-align: center;
+		padding: 80px 50px 40px;
+	}
+	
+#popup-ad .nlbox--inner img {
+    float: none;
+  
+}
+	
+	
+	
+#popup-ad .nlbox--inner .fs-xs-l {
+    font-size: 26px;
+}
+	
+	
+}
+
+

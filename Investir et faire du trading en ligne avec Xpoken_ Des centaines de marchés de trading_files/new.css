@@ -1,0 +1,84 @@
+.kl-slide-overlay  {
+    background: rgba(18,19,28,0.9)  !important;
+    background: -moz-linear-gradient(left, rgba(18,19,28,0.9) 0%, rgba(18,19,28,0.5) 100%)  !important;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(18,19,28,0.9)), color-stop(100%,rgba(18,19,28,0.5)))  !important;
+    background: -webkit-linear-gradient(left, rgba(18,19,28,0.9) 0%,rgba(18,19,28,0.5) 100%)  !important;
+    background: -o-linear-gradient(left, rgba(18,19,28,0.9) 0%,rgba(18,19,28,0.5) 100%)  !important;
+    background: -ms-linear-gradient(left, rgba(18,19,28,0.9) 0%,rgba(18,19,28,0.5) 100%)  !important;
+    background: linear-gradient(to right, rgba(18,19,28,0.9) 0%,rgba(18,19,28,0.5) 100%) !important;
+}
+
+
+.btn-fullcolor, .btn-fullcolor:focus {
+    background: #3bb9ac!important;
+   
+}
+
+.kl-ioscaption--style5 .klios-separator-line span {
+    background-color: #3bb9ac;
+}
+
+.kl-ios-selectors-block.bullets2 .item.selected::before, .kl-ios-selectors-block.bullets2 .item:hover:before {
+    background-color: #3bb9ac;
+}
+
+
+.section-video-icons .left-side {
+    background-color: rgb(18,19,28,0.9) !important;
+}
+
+
+.section-video-icons .right-side {
+    background-color: rgb(26,27,36,0.6) !important;
+}
+
+.colored-area {
+	background:#2e3047 !important;
+ 
+}
+
+.main-bg {
+    background: #3bb9ac!important;
+}
+
+
+.main-nav > ul > li > a:before {
+    background-color: #3bb9ac;
+}
+
+
+main-nav ul ul.sub-menu, .main-nav .hg_mega_container {
+
+    border: 1px solid rgba(0,0,0,.85);
+    box-shadow: 0 0 4px rgb(0 0 0 / 40%);
+  
+    background: rgba(18,19,28,.85) !important;
+}
+
+
+.breadcrumbs li:after, .breadcrumbs2 li:after {
+    border-left-color: #3bb9ac;
+}
+
+.bubble-box {
+
+    background: #3bb9ac !important;
+
+}
+.tcolor {
+    color: #3bb9ac !important;
+}
+
+
+#totop {
+
+    background-color: #3c3f58;
+	
+}
+
+
+.lined-red {
+    color: #3bb9ac !important;
+    border-color: #3bb9ac !important;
+}
+

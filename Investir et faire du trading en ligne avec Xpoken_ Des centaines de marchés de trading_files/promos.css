@@ -1,0 +1,46 @@
+
+.floatbanners {
+    position: absolute;
+    top: 360px;
+    
+}
+	
+.floatbanners.left{
+	
+	left:0px;
+	}
+.floatbanners.right{
+	
+	right:0px;
+	}
+
+.floatbanners img {
+	width:100% !important;
+}
+
+
+
+@media (max-width: 1470px) {
+	
+.floatbanners{
+		display:none;
+	
+	}
+	
+	
+	
+}
+
+
+
+@media (min-width: 1470px) {
+	
+.ad-banner-landscape {
+		display:none;
+	
+	}
+	
+	
+	
+}
+
